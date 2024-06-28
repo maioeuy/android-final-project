@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReadStory7">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#010B0C"
+        android:gravity="center"
+        android:text="Death Note"
+        android:textAlignment="center"
+        android:textColor="#F4F2F6"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="592dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:contentPadding="12dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="563dp"
+            android:background="#000507"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:id="@+id/btnStory7"
+                android:layout_width="386dp"
+                android:layout_height="170dp"
+
+                android:contentDescription="@string/to_do"
+                app:srcCompat="@drawable/death_note" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine"
+                android:layout_width="356dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:overScrollMode="always"
+                android:scrollHorizontally="true"
+                android:text="&quot;So how's it going, Fairman? Must be difficult having to step in for Naomi and all.&quot; FBI agents Sugita and Fairman managed to avoid the L.A. traffic as they headed down Vine Street toward the airport. In an effort to break the ice with Fairman, with whom he was partnered for the first time, Sugita brought up the subject of Naomi Misora, who'd left the Bureau the week before to get married. By &quot;difficult,&quot; Sugita was of course alluding to, among other things, Fairman's having to succeed an agent who had been stuck with the name &quot;Misora Massacre.&quot; The agent who had earned L's trust. &quot;Difficult, yeah,&quot; Fairman replied laconically from the passenger seat. Perhaps not one for conversation. &quot;This is going to be one quiet ride,&quot; Sugita mumbled to himself. He rubbed the stubble on his face and looked down at the attaché case on Fairman's lap. &quot;What does the secretary of state want with confidential files from over twenty years ago anyway?&quot; &quot;Who knows?&quot; Fairman said. &quot;Far be it for us foot soldiers to understand what the higher-ups are thinking, and most of the time it's safer that way.&quot; Sugita noticed something and peered into the rearview mirror. &quot;What is it, Sugita?&quot; Fairman asked. &quot;It's...nothing,&quot; said Sugita, shaking his head and getting a grip on the steering wheel. &quot;Sorry, man, I have to hop out for some cigarettes.&quot; Sugita stopped for a red light and Fairman suddenly got out, attaché case in hand. &quot;Hey, the attaché case-&quot; Maybe he hadn't heard Sugita. But Fairman was not looking in the direction of the storefronts; instead he was looking at the street traffic as if waiting for something. The cell phone inside Sugita's breast pocket vibrated. The display read &quot;Private Call.&quot; Sugita hit the &quot;talk&quot; button. &quot;There are no patrons in the boutique, Sugita.&quot; The voice was distorted by a vocoder. The call was ended before Sugita could even ask who it was. &quot;What was that? A wrong number?&quot; Sugita mumbled to himself. The moment Sugita turned his attention out the window, Fair man fired his gun. A tractor trailer crossing the intersection jerked out of control, then flipped over. The trailer slid on its side, sparks flying and black smoke pouring from the cab as it hurtled towardSugita's car. From around the curtain of smoke, a chase car closed in on Sugitafrom behind. &quot;Damn! We were being followed!&quot; Chewing his lip, Sugita tried to back the car into a side alley but was blocked. For a split second Fairman's sneering face came into view. His retreat cut off, Sugita glanced around for another escape. &quot;Got it!&quot; Sugita pointed the car toward the sheet of flame now engulfing the still-moving trailer and floored it. He jerked the wheel to avoid a collision and popped up onto the sidewalk, hitting a fire hydrant. The car picked up speed and smashed into the show window of a boutique. Sugita shouted, &quot;There better not be any patrons!&quot; as he tore into the store.The trailer collided with the chase car and exploded. The doors flew open and the passengers, more flame than men, tumbled out onto the street. &quot;What do you think you're doing. Fairman?&quot; Sugita bolted out of the boutique, still tangled in the dresses from the display racks, and marched up to Fairman, his gun drawn. Fairman pointed his gun at Sugita, glanced at the burning men on the ground, and muttered in disgust, &quot;The plan was to make it look like you burned to death along with the files, but-&quot; Fairman, who'd been inching backward, suddenly broke into a run. Sugita chased after him, but the streets were too crowded with onlookers to discharge his weapon. Damn! Naomi up and quits and one day later this is what happens! Fairman rounded a corner and collided with a guy in a bear suit standing in front of a crepe truck marked BEAR'S CREPES. The impact sent the bear's armful of soda bottles rolling down the sidewalk. Fair man slipped and fell as if a rug had been pulled out from under him. Despite hitting his hip on the pavement, Fairman recovered quickly, retrieved the briefcase, and took off again. &quot;Mister, would you like a crepe?&quot; the man in the bear suit called out casually as Sugita darted past. &quot;Not now. In a hurry!&quot; &quot;They're good,&quot; the bear shouted. &quot;And sweet!&quot; Fairman was moving slower after his fall. Then he crashed into an old woman, and they fell into a heap with her on top. &quot;Don't move!&quot; Sugita raised his gun. Fairman wrapped an arm around the old woman's neck and jammed the barrel of his gun up against her temple. The attaché case hit the ground nearby. The closest pedestrians ran for cover, while those across the street stood and watched. The man in the bear suit distanced himself from the crowd and spoke in a low voice. A transceiver was embedded inside the costume. &quot;Watari, we have an unforeseen situation. Change target from the briefcase to the man on the run.&quot; &quot;Copy&quot; Watari, looking down over the action from a nearby rooftop, peered through the scope of the rifle and mumbled, &quot;Who do we have here?&quot; A little girl standing in front of a store with a Coke reached for a roll of Mentos, dropped a few of the candies into the bottle, and aimed it at Fairman. The Coke spurted like a geyser, squarely hitting its target. The barrel of Fairman's gun strayed from the old woman's neck for split second. Without missing a beat, Sugita put a bullet through Fairman's shoulder. In the same instant Watari took aim at the briefcase and squeezed the trigger. The briefcase burst apart, sending fiery fragments of classified documents flying like confetti. Sugita surveyed the scene, unable to grasp what had happened. &quot;Respect your elders!&quot; The girl with the Coke bottle scolded Fair- man in rapid-fire Japanese, then walked away with a satisfied air. Sugita stood in a daze, the charred documents in his hand, when the phone in his breast pocket vibrated. It was headquarters. &quot;Y286, we have an emergency! The orders we received from the secretary of state were faked. You might be in for an ambush.&quot; &quot;That you, Raye? Thanks for the intel. You might have saved my ass.&quot; No sooner had he ended the call that the phone vibrated again. It was Naomi this time. &quot;I guess married couples think alike.&quot; &quot;What are you mad about? Listen, I can't seem to get ahold of Fairman. There's an assignment I forgot to tell him about.&quot; Sugita watched the police car take Fairman away and let out a deep sigh. &quot;Naomi, it looks like I'll be taking over your assignments.&quot; &quot;Why? What's going on?&quot; she asked, suspicious. Sugita replied as if throwing up his hands in surrender. &quot;I'll take care of everything. The daily battles with the boss, the investigation with L, all of it. Congratulations on your nuptials, Naomi.&quot; The young girl who'd thrown the Coke stopped at the crepe truck and stared at the bear mascot with the rounded shoulders. She took it upon herself to voice an honest opinion: &quot;What a weird-looking crepe shop.&quot;&quot;Mind your own business,&quot; the man in the bear suit answered indignantly, and in Japanese. The girl wasn't at all shocked to hear her native language in a foreign land. &quot;Oh, you speak Japanese. Good. I'll have a chocolate crepe. Extra chocolate!&quot; Overwhelmed by the girl's energy, the man in the bear suit awkwardly began to make a crepe. The girl seemed satisfied when he handed her a crepe dripping with chocolate sauce. &quot;Ooh, that's plenty. But you know, you really should work on your crepe-making skills. See ya!&quot; The girl waved and strode off in high spirits. The man in the bear suit lowered the zipper, shedding the suit down to his waist, and sighed. &quot;I'm no good with girls.&quot; &quot;It appears that even L isn't accustomed to dealing with such a cheerful girl,&quot; said Watari. The elderly gentleman approached with a serene smile and a rifle, which seemed incongruous with his butler like comportment. &quot;That went well, Watari.&quot; An attaché case exactly like the one Fairman carried rested at the feet-well, the bear paws of the man called L. &quot;Classified FBI files; a valuable acquisition. I suppose this is a fair reward considering we helped the FBI flush out a spy in their midst.&quot; L had switched the real attaché case with a dummy containing explosives and burned documents when Fairman had tripped and fallen. At the precise moment Sugita shot Fairman, Watari had destroyed the attaché case. For Detective L, this was a customary method of gathering intelligence. &quot;Are the contents what you were expecting?&quot; Watari's question seemed premature considering that L. had just removed the thick report from the briefcase. However, like a child throwing a tantrum, he began to tear through the pages and in a blink of an eye had finished and was nodding emphatically. &quot;Yes. It reveals the truth behind the explosion of an infectious disease lab in 1980. The research lab was destroyed to conceal the biohazard linked with the development of a biological weapon.&quot; A limousine pulled up next to the crepe truck. Watari stowed the rifle in the trunk and took out an enormous silver tray, complete with a domed lid. He removed the lid to offer L a macaron by Jean-Paul Hevin from the pyramid stack on the tray. &quot;But I don't believe the United States is developing virus weapons, at least not openly,&quot; Watari said, holding out the tray for L... L snatched up four macarons, one between each of his fingers, and then quickly put one in his mouth as if he might devour his hand along with it. &quot;Yes, ever since Nixon's proclamation in 69, the U.S. has ceased all development of offensive biological weapons,&quot; he said, his mouth full, &quot;and in theory have only been working on developing defensive weapons.&quot; As if the macarons were not sweet enough for his taste, L. twisted off the cookie top of one of them and drizzled chocolate sauce over it. &quot;Even nuclear weapons are in reality more effective as a deterrent than as an offensive weapon. By the same principle, the pretext of developing biological weapons as leverage to deter an attack would hold up. The former Soviet Union also secretly continued its biologi- cal weapons program even after signing the Biological Weapons Ban Treaty in '72. By the way&quot; Licking the chocolate from his fingers, L directed his gaze toward the park across the street. &quot;Interesting girl.&quot; The girl had befriended an old woman and her dog, and was now chasing after the dog as it wagged its tail playfully. &quot;Maki Nikaido.&quot; Watari smiled. &quot;Do you know her, Watari?&quot; &quot;I know her father well. He is the world's preeminent immunologist, Professor Nikaido.&quot; &quot;He's listed as a distinguished professor at Wammy's, if I'm not mistaken.&quot; Watari, also known as Quillish Wammy, had used the enormous earnings from the patents of his many inventions to establish the Wammy Foundation, an organization dedicated to building orphan- ages around the world.Among them, one orphanage took in highly intelligent children from around the world without regard to nationality, race, or gender and provided them with a specialized education. The orphanage was called Wammy's House. There was no formal school or academic departments at Wam- my's. Instead, university professors, researchers, and top specialists in their fields from around the world were invited to give individual instruction to the children according to their abilities and potential. &quot;No doubt she's here with her father for the conference on infectious disease at the International Convention Center,&quot; Watari said. L bit his nails as he watched the girl frolic with the dog. &quot;I have a feeling we'll see her again.&quot; &quot;You're usually right about these things.&quot; &quot;And please include that agent in the list of candidates. The way he evaded the tractor trailer along with his presence of mind in minimiz- ing fire damage by breaking open the fire hydrant was first rate.&quot; &quot;That was FBI agent Sugita. Agent Naomi Misora has left the Bureau,&quot; said Watari. L began to climb out of the bear suit. &quot;Our job is done here, Watari. We need to move on to the next mission immediately.&quot; &quot;Is there a case that might warrant your attention?&quot; &quot;None of the police or investigative bureaus have recognized it as a case yet, but there have been reports of perpetrators of heinous crimes turning up dead of heart failure. Included among them are criminals whose whereabouts only I can verify,&quot; L said. &quot;If this turns out to be a matter for further investigation, our old approach will not be effective. It's imperative that we get to work immediately.&quot; &quot;We should go to your personal safe house in Arizona. I'll arrange for a helicopter immediately. And what shall I do with these documents?&quot; Despite the trouble they'd gone through to obtain them, the confidential FBI files were no longer of importance to L.. &quot;What's Near doing now?&quot; &quot;Working on a white jigsaw puzzle at the House as usual. He did complain that the solution to the Madrid serial murders was too easy. too boring.&quot; &quot;Then pass these on to him. The attempted theft of these files is somehow connected with whoever is pulling Fairman's strings and the biohazard at the research lab. No doubt they were secretly exerting some influence over the 1980 presidential election as well. I would think finding the key to solve these mysteries is a perfect puzzle for him to work on.&quot; &quot;Of course. Now, shall we go?&quot; Watari opened the limousine door and urged L inside. Shuffling toward the limousine with both hands shoved in his pockets, he stopped for a moment to look up at the sky. Watari loaded the bear suit into the truck. Straightening his rounded back just a bit, L. uttered something like a premonition. &quot;If this turns out to be a murder case, we may be in for a longbattle battle.&quot; &quot;I heard the commotion outside. Did something happen, Maki?&quot; Professor Nikaido asked his daughter as he entered the hotel room. &quot;No, not really.&quot; Maki shook her head with an impish grin as Nikaido gently rested a hand on her head. &quot;Maki, I'm afraid I'm going to have to leave for Africa right away.&quot; &quot;Africa? What for?&quot; &quot;Well, I received word from an immunologist friend of mine about an outbreak of an unknown virus in a remote part of the Congo. Two villages have been destroyed by an Ebola-like hemorrhagic fever. I know we made a promise to go to the original Disneyland after the conference...&quot; He allowed the words to trail off apologetically. Maki frowned and shook her head. &quot;Daddy! People are suffering from the virus. What is it you have to do?&quot; Smiling grimly at his daughter's counsel. Nikaido patted her head. &quot;You're right. I can't lose sight of what I have to do. It's what I've always been telling you, isn't it?&quot; &quot;Daddy, I'm going with you,&quot; Maki declared. &quot;Now Maki, it's dangerous where I'm going. You're going back to Japan.&quot; &quot;I told you, I made a promise to Mom that I would take care of you in her place. That's what I have to do.&quot;"
+                android:textColor="#FAF6F6"
+                android:textSize="18sp"
+                tools:ignore="LabelFor" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#00BCD4"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBack7"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="@string/back"
+            app:cornerRadius="12dp"
+            tools:layout_marginLeft="10dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

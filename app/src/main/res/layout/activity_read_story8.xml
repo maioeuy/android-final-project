@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReadStory8">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#010B0C"
+        android:gravity="center"
+        android:text="Tokyo Revengers"
+        android:textAlignment="center"
+        android:textColor="#F4F2F6"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="592dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:contentPadding="12dp">
+
+        <LinearLayout
+            android:layout_width="399dp"
+            android:layout_height="563dp"
+            android:background="#000507"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:id="@+id/btnStory8"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+
+                android:contentDescription="@string/to_do"
+                app:srcCompat="@drawable/tokyo_revengers" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine"
+                android:layout_width="359dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:overScrollMode="always"
+                android:scrollHorizontally="true"
+                android:text="Chapter 1 Thinking about being bad - 1 In the back room of the restaurant across the street from Club Zero, Akashi Takeomi's cell phone chimed to let him know he had received a text message. Several executives from Bonten sat around the large dining table having just finished their meal. Enjoying their cigars that paired perfectly with the smoky bourbon in their glasses. The group was missing its leader, Manjiro Sano, who had business to attend to with a yakuza boss that would supply Bonten with more weapons. Mikey had taken along with him Mochizuku Kanji so around the table sat the other six executives. Exhaling a large cloud of smoke Akashi flipped over his phone and opened his messages. They look like they're having fun he thought to himself as he thoroughly examined the picture Senju had sent him. Her bright smile lit up the forefront of the photo; the background contained just about every brand of junk food you could think of : several bags of chips, a large bowl of popcorn, and an assortment of candy and energy drinks. Scattered around the food was textbooks of varying subjects and notebooks with scribbled words and highlight streaks covering the pages. Accompanying Senju for her late-night study session were her two best friends, Nami and y/n. The girls were clad in pajamas and face masks. Y/N held a large stack of flashcards and Nami contorted her face into an eccentric expression, tongue out and eyes crossed. Senju: still studying probably will be all weekend keep you posted Akashi let his eyes linger back to the photo, admiring her one last time before slipping his phone back into his pocket. A self-satisfied grin back on his face. He had every right to be overprotective of his younger sister and expected these kinds of messages throughout the week. Most especially on weekends like this when she was sleeping over her friend's house. Senju and Nami had been friends since grade school but that didn't grant either of them Takeomi's trust. The two had been handfuls since before puberty and consistent troublemakers. Y/n was a new friend; Senju had met her the beginning of her third year of high school and the two had become inseparable. After meeting Y/n the first time Akashi knew he had nothing to worry about when it came to this new acquaintance. Unlike his sister, Y/n was quiet, respectful, studious, and introverted. She calmed Senju's hyperactive personality whenever she was over their family home, making his younger sister focus on the important things like homework. She also made Takeomi focus on how low-cut school skirts are these days. The thought of her thighs flashed through his mind. Gotta focus on the task at hand now , he stubbed out his cigarette and cleared his throat. &quot;Now gentlemen, let's go over tonight's job one more time&quot; Now if he had done a proper investigation to the photo his sister had sent, Akashi Takeomi would have noticed that all the bags of chips, the containers of candy, even the energy drinks were not open. Upon further inspection he would've seen the reflection of the window in Y/n's thick framed glasses...which clearly showed partly cloudy sunshine unreasonable for a picture sent at almost 10pm.&quot;Well ladies he didn't text me back, looks like we're in the clear.&quot; Senju looked up from her phone in the direction of her partners in crime with a wide grin. A mischievous one started forming on Y/n's face as she finished applying her lip gloss, &quot;I've said it before, and I'll say it again... my plans always work.&quot; The trio had in fact rushed to the convenient store after school for the assortment and then went to Y/n's home. Multitasking like mad women, they put on pajamas, face masks, laid out the snacks, opened their school bags and books, assembling a fool proof way to trick Senju's older brother into thinking they were staying in to study for the night. Say cheese. &quot;Y/n, you really should wear your glasses tonight, HAHA&quot; Nami teased Y/n with the obnoxious pair of spectacles. &quot;Do these things seriously work?&quot; Nami dangled the pair in her face looking at them as if they came from another planet. &quot;No they're not prescription.&quot; &quot;That's not what I meant.&quot; Senju let out an exasperated sigh, &quot;Of course they work for her! In class whenever we get caught talking, passing notes or just not paying attention do you know who gets in trouble?!&quot; she didn't wait for a reply. &quot;ME! Every time and little miss devil in disguise does not even get a slap on the wrist. It's ridiculous!&quot; She threw herself onto Y/n's bed in a final dramatic flop. Nami and Y/n exchanged knowing glances and laughed. &quot;I wish I was in class with you guys it would be so much fun&quot; Nami said with her lower lip stuck out in a pout. &quot;Do it please,&quot; Senju proclaimed picking just her head up from her spot on the mattress &quot;matter of fact you can just take my seat I'll transfer classrooms too.&quot; Y/n had had enough of her blued eyed companions complaining, got up and slapped both hands down on Senju's legs. &quot;OW!&quot; Senju was about to whack Y/n in the side of the head when she saw the creepy smile her friend sported, &quot;Now, now Senju you and I both know you'd be lost without me&quot; She grabbed her friend off her bed and threw her to the floor. The two constantly rough housed with each other, picking fights and pushing buttons all in good fun. From pinching each other in the middle of class to punching each other over who would get the last bite of a shared meal their friendship was defined by physical altercations. The girls would've said they were sisters the other never got to have. Nami broke up the fight with a quick clap of her hands, &quot;HEY I did not get all dressed up to watch the two of you become messes before we even leave the house. Save it for...umm...where are we even going tonight?&quot; They hadn't all exactly thought that far ahead. Nights like this that commenced the weekend, promises of no school in the morning were mostly reserved for first come first serve events. Just get ready and hope that plans come to you sort of deals. Each girl respectfully reached for their own cell phone to find signs of life anywhere in the city. From text messages to social media posts they were determined to find at least several options. &quot;Looks like some of the guys on the basketball team are going to the red light district&quot; Nami said with a snorting laugh, &quot;the boys are becoming men tonight!&quot; Senju didn't have the patience so she threw her phone onto the bed and turned her attention to the other two. She was the type to just get dressed and go out, she'd walk around aimlessly until something caught her eye. &quot;Oh nice, Aya texted me like 15 minutes ago saying a bunch of people are going to Club Zero tonight&quot; Y/n looked at her friends and wiggled her brows, &quot;huh? Huh? How's that sound? A night out in Roppongi could get wild!&quot; The three exchanged smirks and shouted &quot;YES!&quot; they gathered their things quickly now that they had a destination. With shoes and coats on, they clambered downstairs. Y/n let out a big wave and a &quot;bye mom&quot; as she sauntered through her living room. Senju and Nami gave slight bows as they walked by &quot;bye Ms. Shiro! Thanks for having us!&quot;Y/n's mother was already a bottle and a half deep in white wine therefore the &quot;bye girls, enjoy yourselves come back here if you get in trouble&quot; was slurred and slowed. The three were already halfway out the door before the sentence was even finished. The trio linked arms and headed in the direction of the station, &quot;Roppongi isn't ready for us!&quot; Senju whooped out and let out a loud laugh."
+                android:textColor="#FAF6F6"
+                android:textSize="18sp"
+                tools:ignore="LabelFor" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#00BCD4"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBack8"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="@string/back"
+            app:cornerRadius="12dp"
+            tools:layout_marginLeft="10dp" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

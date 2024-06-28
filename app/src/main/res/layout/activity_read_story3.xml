@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReadStory3">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#010B0C"
+        android:gravity="center"
+        android:text="@string/my_hero_academia"
+        android:textAlignment="center"
+        android:textColor="#F4F2F6"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="592dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:contentPadding="12dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="563dp"
+            android:background="#000507"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:id="@+id/btnStory3"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:contentDescription="@string/to_do"
+                app:srcCompat="@drawable/my_hero_academia" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:overScrollMode="always"
+                android:scrollHorizontally="true"
+                android:text="@string/deku_v_o_the_most_amazing_hero_in_the_entire_world_all_might_the_real_thing_in_the_flesh_standing_right_in_front_of_me_he_looks_so_much_cooler_in_person_holy_crap_i_gotta_get_an_autograph_i_ve_got_a_pen_around_here_somewhere_please_sign_my_notebook_screams_he_already_did_whimpering_thank_you_so_much_this_will_be_an_heirloom_a_family_treasure_passed_down_for_generations_to_come_uh_huh_well_i_ve_gotta_get_this_guy_to_the_police_so_they_can_take_care_of_him_stay_out_of_trouble_see_you_around_wait_you_re_leaving_already_pro_heroes_are_constantly_fighting_time_as_well_as_enemies_deku_v_o_he_can_t_go_yet_there_s_still_so_many_questions_i_have_to_ask_him_now_stand_back_i_m_taking_off_yells_thanks_for_your_continued_support_huh_screaming_hey_hey_hey_what_do_you_think_you_re_doing_let_go_i_love_my_fans_but_this_is_too_much_no_way_we_re_flying_if_i_let_go_now_i_ll_die_oh_that_s_a_good_point_i_just_have_a_lot_of_things_i_want_to_ask_you_personally_you_re_my_all_time_favourite_hero_all_might_please_okay_okay_i_get_it_just_keep_your_eyes_and_mouth_shut_sighs_coughing_shit_explosive_rumble_whimpering_my_whole_life_just_flashed_before_my_eyes_not_a_very_smart_move_bang_on_the_door_for_a_while_someone_will_let_you_in_now_i_have_to_go_see_you_on_the_flip_side_wait_not_yet_one_second_no_i_don_t_have_any_time_i_have_to_know_doctor_v_o_sorry_kid_it_s_not_gonna_happen_deku_s_mom_v_o_i_m_sorry_izuku_i_wish_things_were_different_bakugo_v_o_defenseless_izuku_the_school_s_already_crappy_you_really_wanna_embarrass_it_more_by_failing_so_hard_deku_sometimes_i_do_feel_like_i_m_a_failure_like_there_s_no_hope_for_me_but_even_so_i_m_not_gonna_give_up_ever_is_it_possible_to_become_a_hero_even_if_i_don_t_have_a_quirk_i_m_a_normal_kid_without_any_powers_could_i_ever_hope_to_be_someone_like_you_music_swells_deku_v_o_meeting_all_might_was_a_dream_come_true_a_real_miracle_standing_in_front_of_me_was_the_hero_i_idolised_most_of_my_life_i_didn_t_realise_it_at_the_time_but_that_chance_encounter_would_change_the_course_of_my_future_preview_all_might_v_o_never_fear_adoring_public_preview_all_might_v_o_never_fear_adoring_public_i_am_here_for_the_next_episode_preview_that_goo_villain_has_taken_a_boy_hostage_and_is_running_amok_in_the_town_this_isn_t_good_but_i_can_t_use_my_powers_much_longer_or_groans_you_re_pathetic_fraud_all_might"
+                android:textColor="#FAF6F6"
+                android:textSize="18sp"
+                tools:ignore="LabelFor" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#00BCD4"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBack3"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="@string/back"
+            app:cornerRadius="12dp"
+            tools:layout_marginLeft="10dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

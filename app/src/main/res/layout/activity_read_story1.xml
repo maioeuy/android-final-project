@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReadStory1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#010B0C"
+        android:gravity="center"
+        android:text="@string/sololeveling"
+        android:textAlignment="center"
+        android:textColor="#F4F2F6"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="592dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:contentPadding="12dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="564dp"
+            android:background="#000507"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            tools:paddingBottom="5dp">
+
+            <ImageView
+                android:id="@+id/btnStory1"
+                android:layout_width="392dp"
+                android:layout_height="170dp"
+                android:contentDescription="@string/to_do"
+                app:srcCompat="@drawable/solo_leveling" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine"
+                android:layout_width="356dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:overScrollMode="always"
+                android:scrollHorizontally="true"
+                android:text="@string/part_1_rank_e_hunter_rank_e_hunter_seong_jin_woo_no_matter_where_he_went_this_title_always_followed_him_around_jin_woo_s_overall_strength_was_almost_the_same_as_a_regular_human_being_with_the_exception_of_being_a_bit_stronger_and_his_wounds_healing_slightly_faster_jin_woo_was_about_the_same_as_regular_people_in_every_other_aspect_it_was_par_for_the_course_then_that_he_d_always_end_up_getting_injured_he_nearly_died_several_times_too_of_course_it_wasn_t_as_if_seong_jin_woo_liked_being_a_hunter_the_work_was_dangerous_others_made_fun_of_him_and_to_confound_the_matters_even_further_the_pay_was_pretty_pathetic_as_well_if_it_weren_t_for_the_medical_aid_paid_out_by_the_hunter_association_to_the_hunters_in_their_payroll_he_d_have_turned_in_his_hunter_licence_and_quit_by_now_and_live_his_life_like_a_regular_person_unfortunately_someone_like_seong_jin_woo_in_his_mid_twenties_and_lacking_in_any_tangible_job_skills_there_was_no_other_way_but_to_remain_as_a_hunter_if_he_wanted_to_pay_for_his_mother_s_hospital_fee_of_millions_of_won_every_month_should_one_say_that_he_had_no_choice_in_the_matter_that_was_why_even_though_he_didn_t_want_to_he_simply_had_to_participate_in_the_raid_supervised_by_the_association_hunters_operating_within_the_same_area_tended_to_know_each_other_pretty_well_in_the_event_of_a_gate_opening_up_all_the_hunters_in_that_district_would_be_asked_to_come_that_s_why_the_hunters_who_had_arrived_early_sipped_on_the_cups_of_coffee_handed_out_by_the_association_s_employee_and_shared_cordial_greetings_with_each_other_quot_oh_hey_mister_kim_over_here_here_quot_quot_oh_mister_park_what_are_you_doing_here_i_thought_you_were_giving_up_on_being_a_hunter_quot_quot_well_that_my_wife_is_pregnant_with_our_second_child_quot_quot_hahahaha_is_that_so_yeah_for_a_hunter_to_earn_big_in_one_go_participating_in_a_raid_is_the_best_isn_t_it_quot_mister_kim_jovially_burst_out_in_laughter_mister_park_followed_suit_with_a_sheepish_chuckle_before_asking_kim_quot_by_the_way_why_do_i_feel_like_that_the_association_is_calling_on_us_less_and_less_nowadays_did_the_number_of_gates_decrease_or_something_quot_quot_eii_of_course_not_that_s_only_because_the_guilds_are_getting_all_worked_up_over_clearing_the_gates_it_s_got_nothing_to_do_with_the_association_i_hear_that_various_guilds_are_jumping_in_with_both_feet_since_there_is_big_profit_involved_in_this_whole_thing_quot_quot_well_in_that_case_since_this_raid_is_being_supervised_by_the_association_it_should_be_safe_no_quot_mister_park_took_a_glance_around_as_if_he_was_getting_nervous_if_a_guild_was_not_involved_today_that_meant_there_wasn_t_enough_profit_to_be_had_and_if_there_wasn_t_enough_profit_to_be_had_then_that_could_only_mean_that_this_particular_gate_s_difficulty_would_be_low_of_course_nothing_in_this_world_was_100_absolute_it_wasn_t_just_mister_park_other_hunters_were_nervously_glancing_around_as_well_quot_hmm_i_wonder_quot_mister_kim_finished_the_rest_of_his_coffee_while_avoiding_answering_his_friend_before_spotting_a_certain_someone_and_raised_his_hand_in_happiness_quot_uh_he_s_here_hey_mister_seong_mister_seong_quot_other_hunters_also_displayed_joy_at_discovering_that_young_man_quot_ah_hello_quot_it_was_none_other_than_seong_jin_woo_jin_woo_performed_a_simple_nod_of_the_head_at_the_joyous_mister_kim_and_walked_by_after_making_sure_jin_woo_was_well_out_of_earshot_mister_kim_began_sniggering_while_confidently_speaking_up_quot_so_jin_woo_showed_up_then_it_s_going_to_okay_today_too_quot_mister_park_s_eyes_widened_up_and_he_hurriedly_asked_kim_quot_what_was_that_is_that_hunter_seong_jin_woo_really_strong_quot_quot_ahh_right_of_course_you_wouldn_t_know_who_he_is_he_s_a_hunter_who_started_working_shortly_after_you_left_you_see_however_every_hunter_here_knows_who_that_kid_is_by_now_quot_quot_he_s_really_that_strong_wait_why_is_he_working_for_the_association_then_why_not_for_a_guild_or_as_a_freelancer_what_a_sad_day_it_was_for_the_coffee_to_run_out_as_soon_as_it_was_his_turn_to_get_one_quot_why_do_you_persist_on_being_a_hunter_mister_seong_jin_woo_quot_quot_i_m_sorry_quot_jin_woo_lowered_his_head_and_apologised_the_young_beautiful_girl_using_healing_magic_in_front_of_jin_woo_yi_ju_hui_showed_how_unhappy_she_was_with_a_pouting_expression_quot_i_m_not_trying_to_get_you_to_apologise_you_know_i_m_only_worried_about_you_if_you_continue_fighting_this_way_sooner_or_later_you_ll_be_faced_with_a_truly_dangerous_situation_quot_jin_woo_glanced_past_yi_ju_hui_s_shoulders_and_took_a_look_at_other_hunters_fighting_over_yonder_when_one_entered_through_the_gate_one_would_arrive_at_a_place_called_dungeon_the_rank_of_this_particular_dungeon_should_be_around_d_a_dozen_plus_hunters_were_taking_care_of_the_monsters_inside_this_dungeon_without_so_much_as_breaking_a_sweat_unfortunately_for_a_rank_e_such_a_feat_was_nearly_impossible_normally_the_job_of_healing_the_injured_hunters_from_the_back_fell_on_the_healers_since_he_always_got_injured_during_raids_jin_woo_was_rather_well_known_among_the_healers_yi_ju_hui_cautiously_asked_him_quot_perchance_is_there_a_reason_why_you_can_t_give_up_being_a_hunter_quot_jin_woo_resolutely_shook_his_head_he_didn_t_want_to_reveal_anything_personal_to_other_people_quot_i_m_only_doing_this_as_a_hobby_if_i_don_t_do_this_i_ll_probably_die_of_boredom_actually_quot_yi_ju_hui_pouted_even_more_quot_if_you_continue_on_with_this_hobby_of_yours_soon_you_d_be_raiding_a_dungeon_in_the_netherworld_you_know_quot_jin_woo_was_taken_off_guard_from_her_remark_and_ended_up_chuckling_out_loudly_thanks_to_that_yi_ju_hui_s_nagging_intensified_quot_ah_ahh_don_t_laugh_don_t_your_injuries_might_get_worse_quot_jin_woo_giggled_before_asking_her_quot_where_did_you_even_learn_to_say_stuff_like_that_quot_quot_what_do_you_mean_where_it_s_from_mister_kim_waaay_over_there_quot_quot_aigoo_that_ahjussi_really_went_and_did_it_didn_t_he_quot_as_they_chatted_and_laughed_his_treatment_was_almost_over_it_was_already_too_late_by_then_though_it_seemed_that_the_raid_was_pretty_much_over_now_jin_woo_s_expression_hardened_i_only_killed_a_single_monster_today_a_rank_e_creature_no_less_seong_jin_woo_began_fidgeting_with_the_rank_e_magic_crystal_in_his_hand_the_lowest_grade_magic_crystal_from_a_rank_e_monster_fetched_less_than_hundred_thousand_won_for_something_he_bet_his_life_to_earn_it_was_a_pathetically_small_amount_tl_just_over_88_a_magic_crystal_from_a_rank_c_monster_can_sell_for_over_ten_million_won_though_tl_8830_too_bad_a_rank_e_hunter_such_as_himself_couldn_t_even_attempt_to_kill_a_monster_with_a_rank_as_high_as_c_out_of_the_blue_someone_shouted_out_quot_uh_hey_there_s_another_entrance_over_here_quot_the_nearby_hunters_rushed_over_there_quot_huh_it_s_true_quot_quot_there_really_is_another_path_quot_just_as_that_hunter_said_there_was_an_entrance_hidden_within_the_dungeon_itself_quot_a_dual_dungeon_is_it_so_such_a_thing_actually_exists_for_real_quot_mister_song_possessing_over_ten_years_experience_as_a_hunter_looked_into_the_hidden_entrance_and_displayed_how_surprised_he_was_the_interior_of_the_hidden_cave_like_passage_was_dark_and_nothing_could_be_seen_mister_song_activated_his_speciality_flame_magic_and_tossed_it_further_forward_into_the_passage_the_flame_flew_forward_and_illuminated_the_interior_the_passageway_seemed_to_go_on_forever_soon_enough_the_flame_lost_its_forward_momentum_fell_to_the_ground_and_smouldered_for_a_bit_before_flickering_out_of_existence_the_passage_was_shrouded_in_darkness_once_more_quot_hmm_everyone_gather_around_let_s_have_a_meeting_quot_the_unspoken_leader_of_this_raid_mister_song_called_for_other_hunters_to_gather_around_jin_woo_s_treatment_was_over_by_then_so_he_and_yi_ju_hui_also_joined_in_song_spoke_up_while_sweeping_his_gaze_over_the_gathered_hunters_quot_as_you_know_very_well_a_gate_will_not_close_unless_the_dungeon_s_boss_is_killed_since_the_gate_itself_is_still_intact_even_though_we_took_care_of_all_the_monsters_here_that_can_only_mean_that_the_boss_is_beyond_that_passageway_quot_song_pointed_towards_the_hidden_entrance_hunters_exchanged_meaningful_glances_and_nodded_their_heads_no_one_could_disagree_with_that_notion_song_continued_on_quot_now_normally_we_re_supposed_to_relay_this_information_back_to_the_association_and_wait_for_their_decision_first_but_but_if_we_do_that_we_might_end_up_handing_over_the_task_of_killing_the_boss_to_other_hunters_and_our_takings_for_today_s_raid_would_decrease_by_a_lot_quot_the_expressions_of_the_hunters_crumpled_park_s_face_hardened_more_than_anyone_else_since_he_needed_a_lot_of_cash_for_his_wife_s_pregnancy_postnatal_care_eats_up_so_much_cash_nowadays_you_know_at_this_rate_there_d_be_no_meaning_behind_him_risking_his_life_to_participate_in_this_raid_quot_that_s_why_i_d_prefer_if_we_took_care_of_the_boss_before_leaving_this_dungeon_so_what_do_you_all_think_quot_hunters_fell_into_a_deep_contemplation_quot_quot_quot_quot_the_truth_was_no_one_here_could_figure_out_the_current_situation_and_so_their_safety_could_not_be_guaranteed_however_the_difficulty_of_this_particular_dungeon_proved_to_be_very_low_so_the_hidden_dungeon_within_it_couldn_t_have_been_that_difficult_either_quot_hmm_hmm_quot_song_coughed_to_draw_everyone_s_attention_to_himself_quot_since_we_have_seventeen_people_here_let_s_put_this_to_a_vote_shall_we_once_the_decision_has_been_made_no_one_complains_so_how_about_it_quot_others_nodded_their_heads_after_hearing_song_s_suggestion_no_one_was_disagreeing_with_him_quot_i_vote_for_going_ahead_quot_song_raised_his_hand_and_then_other_hunters_began_raising_their_hands_one_by_one_quot_me_too_quot_quot_count_me_in_as_well_quot_park_was_the_first_to_raise_his_hand_followed_shortly_after_by_kim_and_a_few_other_hunters_of_course_those_disagreeing_were_plentiful_too_quot_let_s_go_back_quot_quot_i_feel_that_it_d_be_better_to_wait_for_the_association_s_decision_quot_the_two_opposing_camps_were_neck_and_neck_and_eventually_the_final_votes_came_down_to_jin_woo_and_yi_ju_hui_quot_i_m_sorry_quot_yi_ju_hui_bowed_to_song_and_added_her_vote_to_retreat_camp_and_so_the_vote_count_for_go_ahead_and_retreat_was_at_8_8_a_deadlock_song_asked_the_hesitant_seong_jin_woo_next_quot_and_you_mister_seong_quot"
+                android:textColor="#FAF6F6"
+                android:textSize="18sp"
+                tools:ignore="LabelFor" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#00BCD4"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBack1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="@string/back"
+            app:cornerRadius="12dp"
+            tools:background="#E3EDE7" />
+
+    </LinearLayout>
+
+</LinearLayout>

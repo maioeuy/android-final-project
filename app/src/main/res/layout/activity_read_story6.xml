@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReadStory6">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#010B0C"
+        android:gravity="center"
+        android:text="@string/jujutsu_kaisen"
+        android:textAlignment="center"
+        android:textColor="#F4F2F6"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="592dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:contentPadding="12dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="563dp"
+            android:background="#000507"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:id="@+id/btnStory6"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+
+                android:contentDescription="@string/to_do"
+                app:srcCompat="@drawable/jujutsu_kaisen" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine"
+                android:layout_width="356dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:overScrollMode="always"
+                android:scrollHorizontally="true"
+                android:text="@string/chapter_1_the_only_friend_quot_suguru_wait_for_me_quot_a_breathless_voice_shouted_out_loud_racing_to_catch_up_with_suguru_a_tiny_figure_approached_him_quot_sana_what_are_you_doing_here_quot_suguru_didn_t_expected_her_to_be_here_quot_see_isn_t_it_such_a_good_surprise_that_i_m_here_now_we_both_can_be_together_during_holidays_as_well_hehehe_quot_she_grinned_as_she_said_this_suguru_cast_a_suspicious_glance_at_his_mother_she_averted_her_eyes_while_smiling_it_was_obvious_that_the_one_who_told_sana_about_their_holiday_destination_was_suguru_s_mom_quot_suguru_isn_t_it_nice_your_friend_is_also_here_now_you_both_won_t_miss_each_other_during_holidays_quot_she_said_with_a_loving_smile_on_her_face_quot_i_wasn_t_going_to_miss_her_anyway_quot_he_said_with_a_frowning_face_quot_neither_was_i_it_is_the_worst_coincidence_ever_quot_she_went_away_with_a_saddened_face_quot_suguru_you_should_apologize_to_her_she_was_so_happy_to_see_you_quot_suguru_s_mother_gave_him_a_mild_scolding_suguru_went_after_sana_to_apologize_quot_i_m_sorry_sana_i_didn_t_mean_to_hurt_you_let_us_play_together_quot_suguru_said_as_soon_as_he_caught_her_pace_quot_no_you_liar_you_totally_meant_to_hurt_me_i_don_t_want_to_play_with_you_you_are_here_just_because_you_don_t_want_to_get_scolded_by_your_mom_quot_she_answered_in_anger_and_started_going_to_where_her_parents_were_quot_wait_you_run_so_fast_it_s_difficult_for_me_to_catch_you_quot_suguru_intoned_as_he_was_gasping_for_breath_quot_mama_papa_let_s_go_back_i_don_t_want_to_stay_here_quot_she_cried_quot_did_you_had_a_fight_with_suguru_again_quot_someone_with_a_sweet_soothing_voice_asked_sana_quot_no_mama_i_don_t_know_where_he_is_i_just_want_to_go_back_home_quot_she_cried_in_her_loudest_voice_quot_stop_shouting_like_that_and_come_play_with_me_quot_suguru_reached_there_and_held_her_hand_quot_hey_you_there_you_good_for_nothing_brat_how_dare_you_made_my_daughter_cry_you_sure_don_t_love_your_life_quot_a_scary_tall_figure_came_out_from_the_shadow_of_a_beach_cabin_suguru_was_too_scared_to_say_anything_why_he_has_to_be_here_of_all_the_people_he_thought_to_himself_quot_dear_they_are_just_playing_if_you_keep_on_scaring_away_everyone_like_that_then_she_s_not_gonna_make_any_friends_and_suguru_is_her_only_friend_if_you_gonna_keep_up_that_attitude_nobody_s_ever_gonna_come_near_your_daughter_quot_sana_s_mother_said_quot_friend_or_whatever_nobody_is_allowed_to_hurt_my_daughter_quot_he_added_quot_papa_don_t_shout_at_suguru_quot_sana_tattled_at_her_dad_quot_what_kind_of_black_magic_has_this_suguru_done_on_my_child_sana_i_m_your_cute_dad_you_can_t_shout_on_me_for_a_stranger_papa_loves_you_soo_muchh_quot_her_dad_babbled_quot_sorry_nakamura_san_quot_suguru_took_sana_s_hand_and_eloped_from_there_as_fast_as_he_could_quot_he_always_takes_away_my_cute_daughter_this_bastard_quot_he_said_while_sulking_quot_now_who_s_behaving_like_a_spoiled_brat_you_can_t_be_the_only_one_who_gets_to_play_with_her_always_quot_sana_s_mom_added_suguru_and_sana_play_till_the_sunset_on_the_shore_nakamura_sana_and_geto_suguru_are_childhood_friends_they_attend_the_same_school_and_also_live_in_vicinity_they_are_not_exactly_neighbors_but_their_houses_are_near_enough_that_they_can_go_to_each_other_s_home_to_play_they_re_both_seven_suguru_is_a_slim_boy_with_black_hair_slightly_long_till_shoulders_with_bangs_and_purple_eyes_cares_deeply_for_everyone_have_a_mom_and_a_dad_nakamura_sana_is_a_bit_skinny_girl_with_dark_brown_hair_and_eyes_she_s_as_tall_as_suguru_cries_when_suguru_acts_mean_towards_her_has_one_friend_i_e_suguru_everyone_runs_away_because_of_her_dad_and_also_she_s_too_shy_to_make_friends_suguru_was_the_one_who_asked_her_to_play_together_when_she_was_playing_alone_in_the_park_while_all_other_children_were_playing_together_they_said_she_looked_ugly_skeleton_and_refused_to_play_with_her_suguru_even_beat_up_one_or_two_kid_who_were_badmouthing_her_and_later_got_scolded_by_his_parents_for_getting_involved_in_a_fight_the_kids_he_beat_up_complained_at_his_home_from_that_day_on_wards_sana_and_suguru_became_very_good_friends_little_kids_are_bitches_agree_jk_suguru_s_mom_and_dad_are_really_sweet_and_they_are_also_nice_towards_sana_they_are_highly_disciplined_people_but_not_too_stiff_to_the_rules_suguru_is_their_only_son_the_three_of_them_make_a_really_sweet_family_sana_have_a_mom_and_dad_as_well_her_dad_is_a_tall_man_with_a_well_built_physique_and_have_dark_brown_hair_that_reaches_his_shoulders_with_an_undercut_he_usually_tie_them_up_he_s_a_sporty_person_has_a_partnership_in_a_yacht_business_oversees_that_s_basically_their_source_of_income_sana_s_mom_is_a_baker_their_home_is_designed_with_the_bakery_on_the_ground_floor_and_the_residence_on_the_upper_story_she_has_a_bit_delicate_body_her_black_hair_goes_down_her_shoulder_and_are_often_tied_in_a_loose_ponytail_she_s_not_that_tall_between_5_6_quot_to_5_7_quot_she_is_a_sweet_person_but_scolds_her_husband_at_times_they_make_a_sweet_couple_he_met_her_at_her_bakery_first_time"
+                android:textColor="#FAF6F6"
+                android:textSize="18sp"
+                tools:ignore="LabelFor" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#00BCD4"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBack6"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="@string/back"
+            app:cornerRadius="12dp"
+            tools:layout_marginLeft="10dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

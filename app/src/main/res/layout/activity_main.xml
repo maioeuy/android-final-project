@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:background="#E81636"
+        android:gravity="center"
+        android:text="Novels"
+        android:textAlignment="center"
+        android:textColor="#240A4F"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#120202"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0C0101"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:contentPadding="12dp">
+
+                <LinearLayout
+                    android:id="@+id/solo"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="#F6EEF1"
+                    android:backgroundTint="#E3DBDB"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/btnStory1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/to_do"
+                        app:srcCompat="@drawable/solo_leveling" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtStory1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#050515"
+                    android:gravity="bottom"
+                    android:text="@string/solo_leveling"
+                    android:textColor="#B81010"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:contentPadding="12dp">
+
+                <LinearLayout
+                    android:id="@+id/one"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="#F6EEF1"
+                    android:backgroundTint="#F1ECEC"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/btnStory2"
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:contentDescription="@string/to_do"
+                        android:foregroundGravity="center"
+                        app:srcCompat="@drawable/one_punch_man" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtStory2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#050515"
+                    android:gravity="bottom"
+                    android:text="@string/one_punch_man"
+                    android:textColor="#B81010"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:contentPadding="12dp">
+
+                <LinearLayout
+                    android:id="@+id/hero"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="#F6EEF1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/btnStory3"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:contentDescription="@string/to_do"
+                        app:srcCompat="@drawable/my_hero_academia" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtStory3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#050515"
+                    android:gravity="bottom"
+                    android:text="@string/my_hero_academia"
+                    android:textColor="#B81010"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:contentPadding="12dp">
+
+                <LinearLayout
+                    android:id="@+id/magic"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="#F6EEF1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/btnStory4"
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:contentDescription="@string/todo"
+                        app:srcCompat="@drawable/magic_and_muscles" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtStory4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#050515"
+                    android:gravity="bottom"
+                    android:text="@string/magic_and_muscles"
+                    android:textColor="#B81010"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:contentPadding="12dp">
+
+                <LinearLayout
+                    android:id="@+id/titan"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="#F6EEF1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/btnStory5"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:contentDescription="@string/to_do"
+                        app:srcCompat="@drawable/attack_on_titan" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtStory5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#050515"
+                    android:gravity="bottom"
+                    android:text="@string/attack_on_titan"
+                    android:textColor="#B81010"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:contentPadding="12dp">
+
+                <LinearLayout
+                    android:id="@+id/juju"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="#F6EEF1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/btnStory6"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:contentDescription="@string/to_do"
+                        app:srcCompat="@drawable/jujutsu_kaisen" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtStory6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#050515"
+                    android:gravity="bottom"
+                    android:text="@string/jujutsu_kaisen"
+                    android:textColor="#B81010"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:contentPadding="12dp">
+
+                <LinearLayout
+                    android:id="@+id/death"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="#F6EEF1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/btnStory7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/to_do"
+                        app:srcCompat="@drawable/death_note" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtStory7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#050515"
+                    android:gravity="bottom"
+                    android:text="Death Note"
+                    android:textColor="#B81010"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:contentPadding="12dp">
+
+                <LinearLayout
+                    android:id="@+id/tokyo"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="#F6EEF1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/btnStory8"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:contentDescription="@string/to_do"
+                        app:srcCompat="@drawable/tokyo_revengers" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtStory8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#050515"
+                    android:gravity="bottom"
+                    android:text="Tokyo Revengers"
+                    android:textColor="#B81010"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="12dp"
+                app:cardPreventCornerOverlap="true"
+                app:contentPadding="12dp">
+
+                <LinearLayout
+                    android:id="@+id/spy"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="#F6EEF1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/btnStory9"
+                        android:layout_width="370dp"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/to_do"
+                        app:srcCompat="@drawable/spy" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtStory9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#050515"
+                    android:gravity="bottom"
+                    android:text="Spy x Family"
+                    android:textColor="#B81010"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

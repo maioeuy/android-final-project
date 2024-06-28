@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReadStory9">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#010B0C"
+        android:gravity="center"
+        android:text="Spy x Family"
+        android:textAlignment="center"
+        android:textColor="#F4F2F6"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="592dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:contentPadding="12dp">
+
+        <LinearLayout
+            android:layout_width="399dp"
+            android:layout_height="563dp"
+            android:background="#000507"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="5dp">
+
+            <ImageView
+                android:id="@+id/btnStory8"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+
+                android:contentDescription="@string/to_do"
+                app:srcCompat="@drawable/spy" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine"
+                android:layout_width="359dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="10dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:overScrollMode="always"
+                android:scrollHorizontally="true"
+                android:text="THE ) we DUN SHE'S ~— GIRL! j any ‘| WHAT THE oe Ms fs HELL?! THEN ¥ Ay ~ — RE eas Too!  AW TERRITORY QHAAAAAAKTHAY =  THE SOUND OF KIDS CRYING SO MUCH. 4 BECHISE. [ez | DREDGES:! UP | -FEELINGSO 5 | mone. AND.- — POWERLESS — 4 7 /N- DESPAIR, = — TATTHEONLY WN «WITH 0 NO ONE THING I-COULD —_ OFFERING TO_ Tet | DOWAS CRY HX SAVE ME.  WHEN WE SEE you PEOPLE WHO KNOW THE LOOK LIKE GAME &quot;TAG&quot;? THEY'RE GOOD Me AND MY AT TAG, WE FRIENDS BACK CHALLENGE THERE, WE'RE THEM TO A PRO TAG GAME. I'LL REWORK THE M/SSION. FIGURE OUT A WAY 70 DO IT THAT DOESN'T INVOLVE A KID. WHEN THEY SEE THIS, THEY'LL PUT HER IN A BETTER ORPHANAGE. @ 10.A POLice TF YOU GO : RIGHT DOWN OFFICER THIS STREET THERE, AND YOU WIN THE AND TURN RIGHT, YOU'LL SEE A POLICE STATION.  HOW OID I NOT SEE THAT? MAKING A WORLD WHERE— KIDS DON'T NEED TO CRY...  eee BECAME A SPY IN THE FIRST PLACE.  GONNA DRAG HIM OUTTA HERE AND EXPOSE HIS FACE TO THE WHOLE— LET THAT BASTARD GET AWAY!  THE WHOLE PLACE'LL AS IF I'D LET PEONS LIKE YOU CATCH EVEN A GLIMPSE OF ME.  TURN AROUND AND YOU'RE KNOW MY DAUGHTER'S  IF YOU WANT HER TO HAVE ANY SEM- BLANCE OF A NORMAL LIFE... HER HEIGHT, HER WEIGHT, HER SHOE SIZE, HER FAVORITE FOODS. I KNOW HOW MANY MOLES fS ARE ON HER YOU'RE JOB, EDGAR. THAT'S WHAT SPIES DO. I” OLITTA YOUR MIND! MY DAUGHTER A WOULD NEVER— IT'S NOTHING COMPARED TO YOU, SHE'S INVOLVED IN PLENTY OF CRIMINAL |; I KNOW g HOW MUCH a YOU CARE ABOUT YOUR yy) DAUGHTER.  UNDERSTAND, THEN GO STRAIGHT 8 Ss Se =F oe _ oe Fe a - ae 4 es - f : a . = ae oc oe ss ae a Seg  DOING AWAY FROM AS FOR ME, UH, I JUST CAME HERE TO SHOP, LOOKS LIKE THEY'RE OUT 1 OF BUSINESS THOUGH. Famili  She's been fostered out ard returned four times. IF YOU LEAVE ME AGAIN, TLL CRY. LET'S GO HOME.  THIS TIME YOU'LL JUST NEED TO REMEMBER THE ANSWERS. It'll be easy. WANT TO LIVE IN A ile BUT WE NEED = Sally / L FOUNDA 10 MOVE. THAT 1 | i leas! POISONOUS APARTMENT IS Wt enaxe DANGEROUS. _\ IN THERE = _-\ YESTERDAY. } Me I CASTLE! BUT AFTER WE MOVE, YOU  | PASSED I! YOU DID VERY GOOD!!  LOOSEN UP?! | ALT hill il | | ‘ Mlk ! Ne le: . Ht Nu SPECIAL DELIVI LOOSENED UP FORA SECOND, AND THE EXHAUSTION GOT THE BETTER OF ME.  THEN I NEED YOu TO GIVE THIS TO MOMMY OR DADDY. TM ANYA FORGER. PAPA! YOU GOT A LETTER!  AND IT HAVE NOW IM 70 Pull WE FALLING MYSELF ASLEEP YOU \cemen We GOT MAIL! ! | SN PEOPLE PEOPLE?! WHAT THE—?! ARE TO GIVE ME A HEART ATTACK?!  &quot;A MANDATORY FAMILY INTERVIEW &quot;ABSOLUTELY NO EXCEPTIONS.” seis \PROCESS 3 Ae “BOTH PARENTS MUST ATTEND APPLICANT.”  SPY: FAMILY  MISSION 2 pas ——— WITH ALL YOUR TALENT FOR DISGUISE, THIS IS THE BEST YOU COULD COME UP WITH? I DON'T THINK YOU CAN PULL OFF THE MOTHER ROLE,  ASASPY 1 CAME FROM A WESTALIS ones INTELLIGENCE AGENCY, é I WAS ASSIGNED THIS Dy THIS IS TOP SECRET MISSION. ’ j OPERATION THE GOAL IS TO d = STRIX, MY AVERT A WAR BEING | Fi\. : CODE NAME ENGINEERED BY NO 8 /S TWILIGHT. OSTANIAN POLITICAL f \ LEADER DONOVAN DESMOND. BUT Wi gla WE MANAGED FAILED TO : TO PASS THE =| ANTICIPATE THAT _ ' | ENTRANCE EXAM | @ | BOTH PARENTS i | NEEDED TO WORK | WOLILD BE 2 OUR WAY INTO i! REQUIRED TO ; OSTANIA’S ATTEND THE ELITE EDEN MANDATORY oot «ee FOLLOW-UP fee [\ ¥ AI Ss = po THERE'S \ NO WAY AROUND IT, THEN. TLL GO FIND A  MISSION 2CITY HALL THE CAPITAL CITY OF BERLINT DID you HEAR THE NEWS? OUR OFFICES WERE ROBBED! ye SI ‘| MCAy | YW) / CoS DOESN'TW APPARENTLY THAT THE PERP ONLY HE WAS CREEPS ME CREEP BROKE INTO OGLING ME OUT MORE YOU OUT? CABINETS AGAIN THIS THAN OUR HE MUST CONTAINING THE MORNING! SECTION BE SOME PERSONNEL KIND OF FILES OF FEMALE PERVERT! RESIDENTS. DOESN'T THE ROBBERY CREEP YOU SHARON. YOU SHOULD SHOW THOSE LEGS OFF!  COME BACK TO EARTH NOW AND THEN, YOR, AND MAYBE YOU COULD ACTUALLY MEET A MAN! OH, YOR. WHAT A UNIQUE TREASURE YOU ARE. DOES THAT MAKE THE COFFEE TASTE BETTER?  YOU'RE THANK PROBYOU FOR ABLY WARNING _ RIGHT. OH, YOU KNOW WHAT? I'M THROWING enon A DINNER BRING PARTY Lal ! JOIN US, WEEKEND! SOMEONE! Ee DON'T YOU THINK THAT'S A LITTLE AMBITIOUS Pie ™ MAYBE SHE | \ COULD BRING THE PERVERT WHO BROKE INTO OUR OFFICE.  Cc H A K BRIAR RESIDENCE. RUDE! SO WEIRD. em o \ SS I WORRY WORKING WHEN ARE YOU GOING TO GET MARRIED? I DON'T : LISTEN, KNOW IF I'LL BUT ID I MIGHT BE ACCEPT IT YET. BE EVEN IT WOULDN'T BUSIER THAN PROMOTION OUTER FEEL RIGHT BEFORE, AT WORK. TO LEAVE YOU RUNNING ALL ALONE LIKE OVER THE THAT. PLACE.  THAT'S WAY ITS 60 IMPORTANT YOU'RE HAPPy. THAT'S R, 50 PARTY... THIS oo HEAR. IS IT THE ONE WITH YOUR COWORKERS? IM REALLY GRATEFUL TO YOU, YOU KNOW. Dives iE GOTA BOy- FRIEND?/ I WOULDN'T BE HERE IN THE FIRST PLACE IF I HADN'T HAD MY BIG SISTER LOOKING OUT FOR ME ALL THIS TIME. COURSE T'LL BE BRINGING MAYBE I COULD INTRODUCE YOU TO SOMEONE?  IM NOT GONNA TAKE THIS PROMOTION UNTIL I'M SURE YOU'RE IN GOOD HANDS. THEN I'LL GET DOMINIC TO GIVE ME A FULL REPORT ON THIS BOYFRIEND OF YOURS. ABAD Gly, HOW THEN IT’ NAIVE YOU My JOB TO CAN BE. DRIVE HIM WAIT TO HEAR ALL ABOUT HIM/ GOOP NIGHT, S/S/  OH! Su-sHop- HUH? KEEPER? I'M 60 SORRY, I THOUGHT— ARE YOU AND YOUR BROTHER FIGHTING? THAT'S UNUSUAL. IF HE FINDS OUT I LIED, HE'LL THINK HIS “WE/RD&quot; SISTER IS A PATHOLOGICAL LIAR TOO! HE'LL NEVER TRUST ME AGAIN! YURI, WHAT I SAID EARLIER—I WAS JUST JOKING! I HAVE A “CLIENT” FOR YOU, THORN PRINCESS.  \\ | WV \\| NINN UN s  WE'VE RENTED OUT bo| THIS WHOLE | §\ FLOOR. RESPECTFULLY, SIRS... I'VE HEARD THAT A TRAITOROUS SCUMBAG IS STAYING HERE?  y cal y/.  MAY I HAVE THE HONOR OF TAKING YOUR LIFE? VICE MINISTER IT APOLOGIZE FOR THE INTRUSION, BUT... AaT Wi iN Ns N i i. \,  SHE’D BEEN DOING WHATEVER DIRTY WORK HER EMPLOYER HAD ASKED OF HER SINCE. THE SKILLS OF HER TRADE HAD BEEN DRILLED INTO HER FROM A YOUNG  WHAT AM I GOING TO NOW I DO? THIS IS CAN'T GO THE ONLY TO THE NICE DRESS I HAve! WLW eee : Y And . == make sure HOPELESS oto bring W777 wy PN Carn you OP believe someore ; * == od guy ANYWAY. someone! | being single |) sage fs Ss » we Y “ue? §F Ml \\Z7/ re WHEN IT COMES TO HOMEMAKING .- CLEANING HOUSE IS THE ONLY THING I KNOW. :  DID You FIND A sO fe — YOU NEED A ..-AND WHO'S CARE YOU'RE ( | ’ = .. | WOMAN WHO'S WILLING TO pivoRCED \ ; JI Le REFINED ENOUGH | 2 GET MARRIED with A Kip \N | L\ FOR EDEN Lushai ACADEMY... fy I COPIED ALL THE FILES OF UNMARRIED SUCH A GODDESS EXISTS, I'D  CAN'T YOUR SEND YOU A FEMALE OPERATIVE? /, THERE'S NOTHING WRONG WITH YOU. THIS IS ABOUT GETTING YOU INTO WORRY ABOUT IT, THEY'RE WORKING YOU LIKE A DOG! Breaking dear up some a ~—f ‘ smuggling i THEY'RE SO THEY SENT Me ANOTHER MISSION ON TOP OF THIS THEY WERE MOSTLY NONE WIPED OUT OF THE DURING  PREFER TO AVOID ANY COMPLICANO WAY DOES THAT LOOK LIKE THE SCION OF A PRIVILEGED FAMILY. LET'S Y WELL, ALL evaet witH = THE MORE REASON TO WOMEN WHose — REAGON T CIRCLIMSTANCES ae MIGHT GIVE THEM AREASON TO QUICKLY. COOPERATE. REALLY? HARD TO IMAGINE A BIGGER COMPLICATION THAN THAT ONE RIGHT THERE. HMM. YOU'RE TLL SEE RIGHT. WHAT I CAN DO ABOUT HER APPEARANCE, ee is _. Ss eS - Se ee ce : See = ee Bes  AM T BEING | / COME WITH ee SOLD TO \/ ME, MISS. TLL TRAFFICK- TAKE YOUR f LEARNING ae Oe MENTS. | Mey : 7 ls \ SN) AE | Po ms ‘| if i | i SS THE PRO- A ae Te _OOE CEN EIN ra PRIETRESS,| | aS —ARRESTEDZ \ ||WAs ON I VAS THE LIST OF, | \\Plus.| THE PAS EN... pe litte ig CANT TAK Stor the = PARIS BE POSSIBLE HELLO, TO GET I NEED IT DONE TO GET QUICKLY? MY DRESS Me  YOU'VE BEEN / A STARING AT ‘| ME SINCE I \ WALKED IN » CAN I HELP YOU WITH SOMETHING? Yor’s s0 pretty. I krow shé could turn some heads. (lf she put a little effort into her appearance.) JUST SLOPP/- NESS ON zr MYPART, REALLY THEN? HAVE BEEN S0...YOU'RE SAYING YOU HAVE A POSITIVE IMPRESSION OF MY APPEARANCE?  s S ALTHOUGH | ae | CASE, I'D CERTAINLY KILL HER _ HAVE BEEN _ MURDERED NO, I MUSTN'T EVEN ENTERTAIN THE IDEA! THAT'S JUST THE SORT OF THING THAT COULD EXPOSE ME AS AN normal! ASSASSIN. Y  THE GIRL WAS FOR ENTER- | ) TAINMENT. | /] THEMISSION: THOUGHT SHE, MUCH BETA) RROSPECT, | » Aree AS — CG, Bifeoo Y Dh AON WAAAHHH! I’M SO SAD THAT DOING See My Best Er TO RAISE  I KNOW Yes. I LIED IT'S A LOT \ AND TOLD My TO ASK, BUT... he BROTHER THAT I'D LIKE TO I I WAS INA TAKE YOU TO | RELATIONSHIP. I PROMISE YOU, THIS BROTHER'S ISN'T SOME MIND AT  I WANT TO ASK YOU TO ATTEND A FAMILY INTERVIEW, POSING AS ANYA'S MOTHER. } IT WAS SO MAY I ASK IMPORTANT TO YOU TO HELP THAT SHE'S = MY WIFE THAT, GONE... IN THESE pce Beall WELL, I UNCERTAIN WANT TO TIMES, OUR HONOR HER DAUGHTER WISHES AS ATTEND A I'LL LURE HER ™® IN WITH ANS THINK I CAN INITIAL SMALL PULL IT OFF, Fe REQUEST / THEN I'D BE AND."
+                android:textColor="#FAF6F6"
+                android:textSize="18sp"
+                tools:ignore="LabelFor" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#00BCD4"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBack9"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="@string/back"
+            app:cornerRadius="12dp"
+            tools:layout_marginLeft="10dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
